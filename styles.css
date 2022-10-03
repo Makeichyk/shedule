@@ -4,12 +4,12 @@
 
 .container {
   background-color: rgb(138, 129, 129);
-  width: 100vw;
-  height: 100vw;
+  /* width: 100vw; */
+  /* height: 100vw; */
 }
 
 
 .img {
-  width: 95vw;
-  height: 80vw;
+  width: 100vw;
+  height: 100vh;
 }
