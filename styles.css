@@ -4,12 +4,13 @@
 
 .container {
   background-color: rgb(138, 129, 129);
-  /* width: 100vw; */
-  /* height: 100vw; */
 }
-
 
 .img {
   width: calc(100vh - 17px);
   height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
