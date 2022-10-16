@@ -10,6 +10,6 @@
 
 
 .img {
-  width: 98vw;
+  width: calc(100vh - 17px);
   height: 100vh;
 }
