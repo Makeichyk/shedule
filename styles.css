@@ -3,15 +3,47 @@
 }
 
 .container {
-  background-color: rgb(138, 129, 129);
+  background-color: rgb(92 178 84);
 }
 
-.img {
-  /* width: calc(100vw - 17px); */
+.img1 {
   width: 100vw;
   height: 100vh;
 }
 
+.pagination {
+  display: none;
+}
+
 ::-webkit-scrollbar {
   width: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .img1 {
+    display: none;
+  }
+
+  .img {
+    width: 100vw;
+    height: 97vh;
+  }
+
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5vw;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
 }
