@@ -11,6 +11,10 @@
   height: 100vh;
 }
 
+.img {
+  display: none;
+}
+
 .pagination {
   display: none;
 }
@@ -26,6 +30,7 @@
   }
 
   .img {
+    display: block;
     width: 100vw;
     height: 97vh;
   }
@@ -39,11 +44,4 @@
     align-items: center;
   }
 
-  .hide {
-    display: none;
-  }
-
-  .show {
-    display: block;
-  }
 }
